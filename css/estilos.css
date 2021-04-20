@@ -785,7 +785,18 @@ margin-top: 10%;
 	margin-block-start: 0em;
 	margin-block-end: 0em;
 	text-align: center;
-	
+
+}
+
+@keyframes text{
+    0%{
+        transform: translateX(1000px);
+        color: transparent;
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
 }
 
 .h2404{
@@ -799,7 +810,8 @@ margin-top: 10%;
 	margin-block-start: 0em;
 	font-size: 35px;
 	margin-block-end: 0em;
-	
+	animation-name: text;
+    animation-duration: 3.5s;
 }
 
 
