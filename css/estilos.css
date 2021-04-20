@@ -785,7 +785,11 @@ margin-top: 10%;
 	margin-block-start: 0em;
 	margin-block-end: 0em;
 	text-align: center;
-	transition: width 10s;
+	
+	transition-property: width;
+	transition: width 5s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
 }
 
 .h1404:hover{
