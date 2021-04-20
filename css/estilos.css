@@ -785,6 +785,11 @@ margin-top: 10%;
 	margin-block-start: 0em;
 	margin-block-end: 0em;
 	text-align: center;
+	transition: width 10s;
+}
+
+.h1404:hover{
+	width: 300px;
 }
 
 .h2404{
@@ -798,6 +803,7 @@ margin-top: 10%;
 	margin-block-start: 0em;
 	font-size: 35px;
 	margin-block-end: 0em;
+	
 }
 
 
