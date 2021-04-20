@@ -791,7 +791,7 @@ margin-top: 10%;
 @keyframes text{
     0%{
         transform: translateX(1000px);
-        color: transparent;
+        
     }
     100%{
         transform: translateX(0px);
